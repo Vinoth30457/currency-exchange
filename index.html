@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>currency exchange</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+  <div class="card">
+    <div class="img-container">
+      <img src="./images/currency.png" alt="currency exchange image" class="currency-img">
+    </div>
+    <h1 class="title">Calculate the currency Exchange Rate</h1>
+    <div class="currency-container">
+      <div class="currency">
+        <select name="" id="currency-one" class="currency-one">
+          <option value="INR" selected>INR</option>
+        </select>
+        <input type="number" name="" id="input-one" class="input-one">
+      </div>
+      <div class="swap-container currency">
+        <button class="btn-swap" id="btn-swap">Swap <i class="fa-solid fa-arrows-rotate"></i></button>
+        <p class="exchange-value" id="exchange-value"></p>
+      </div>
+      <div class="currency">
+        <select name="" id="currency-two" class="currency-two">
+          <option value="INR" selected>INR</option>
+        </select>
+        <input type="number" name="" id="input-two" class="input-two">
+      </div>
+    </div>
+  </div>
+  <script src="./javascript/script.js"></script>
+</body>
+
+</html>

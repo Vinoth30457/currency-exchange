@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  width: 100vw;
+  font-family: "Poppins", sans-serif;
+  /* background-image: url(/images/bg.avif); */
+  /* background: radial-gradient(circle farthest-side, #fceabb, #f8b500); */
+  background-image: radial-gradient(circle farthest-side, #33001b, #ff0084);
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* global css */
+img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.card {
+  background-color: #fff;
+  width: 22rem;
+  border-radius: 1rem;
+  padding: 2.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  /* box-shadow: rgba(251, 252, 253, 0.99) 0px 2px 4px 0px,
+    rgba(244, 244, 245, 0.99) 0px 2px 16px 0px; */
+
+  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px,
+    rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+}
+
+.currency-img {
+  width: 8rem;
+}
+
+.title {
+  text-align: center;
+}
+
+.currency-container {
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+
+  gap: 1.5rem;
+}
+
+.currency {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input-one,
+.input-two {
+  width: 6rem;
+  height: 2rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.currency-one,
+.currency-two {
+  height: 2rem;
+  width: 4rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-swap {
+  background-color: green;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+  color: #fff;
+  margin-left: -0.6rem;
+  cursor: pointer;
+}
+
+.exchange-value {
+  color: green;
+  /* margin-right: -0.7rem; */
+  font-weight: 600;
+}
+
+
+
+@media screen and (min-width: 576px) {}
+
+/* Medium devices (tablets) */
+
+@media (min-width: 768px) {}
+
+/* Large devices (desktops) */
+
+@media (min-width: 991px) {
+  .card {
+    width: 30rem;
+  }
+
+  .currency-container {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .currency {
+    width: 20rem;
+  }
+}
+
+/* Extra large devices (large desktops) */
+
+@media (min-width: 1200px) {}
