@@ -9,7 +9,7 @@ const inputTwoEl = document.getElementById("input-two");
 
 //global variable
 
-const url = `https://v6.exchangerate-api.com/v6/ca093239e0692b5c1ca73c32/latest/USD`;
+const url = `https://v6.exchangerate-api.com/v6/ca093239e0692b5c1ca73c32/latest/`;
 
 //function
 const init = () => {
@@ -18,7 +18,7 @@ const init = () => {
 };
 
 async function getCountryName() {
-  const response = await fetch(`${url}`);
+  const response = await fetch(`${url}INR`);
   const data = await response.json();
   const countryArr = Object.keys(data.conversion_rates);
   addCurrencyCode(currencyOneEl, countryArr);
@@ -38,7 +38,7 @@ async function getExchangeRate() {
   const currencyOne = currencyOneEl.value;
   const currencyTwo = currencyTwoEl.value;
   console.log(currencyOne);
-  const response = await fetch(`${url}`);
+  const response = await fetch(`${url}${currencyOne}`);
   const data = await response.json();
   const rateOne = data.conversion_rates[currencyOne];
   const rate = data.conversion_rates[currencyTwo];
