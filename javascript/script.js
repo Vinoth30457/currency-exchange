@@ -9,7 +9,7 @@ const inputTwoEl = document.getElementById("input-two");
 
 //global variable
 
-const url = `https://v6.exchangerate-api.com/v6/ca093239e0692b5c1ca73c32/latest/INR`;
+const url = `https://v6.exchangerate-api.com/v6/ca093239e0692b5c1ca73c32/latest/USD`;
 
 //function
 const init = () => {
