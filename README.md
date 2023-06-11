@@ -18,5 +18,5 @@ Your users should be able to:
 
 ### Links
 
-- Solution URL: [Click here](https://github.com/Vinoth30457/advice-generator-app-main.git)
+- Solution URL: [Click here](https://github.com/Vinoth30457/currency-exchange.git)
 - Live Site URL: [Click here](https://splendid-sopapillas-53415b.netlify.app)
