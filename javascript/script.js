@@ -43,9 +43,9 @@ async function getExchangeRate() {
   const rateOne = data.conversion_rates[currencyOne];
   const rate = data.conversion_rates[currencyTwo];
   console.log(rate);
-  exchangeValueEl.innerText = `${rateOne.toFixed(
+  exchangeValueEl.innerText = `1 ${currencyOne} = ${rate.toFixed(
     2
-  )} ${currencyOne} = ${rate.toFixed(2)} ${currencyTwo}`;
+  )} ${currencyTwo}`;
   inputTwoEl.value = (inputOneEl.value * rate).toFixed(2);
 }
 
