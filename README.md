@@ -19,4 +19,4 @@ Your users should be able to:
 ### Links
 
 - Solution URL: [Click here](https://github.com/Vinoth30457/currency-exchange.git)
-- Live Site URL: [Click here](https://splendid-sopapillas-53415b.netlify.app)
+- Live Site URL: [Click here](https://tiny-cascaron-581ec0.netlify.app)
